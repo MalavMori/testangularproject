@@ -1,0 +1,21 @@
+
+
+<!-- <div *ngFor="let student of studentlist; let i = index">
+    <h4>{{i}}</h4>
+    <h4 (click)="datatosend(student)">{{student.en_no}}</h4>
+    <h4>{{student.name}}</h4>
+    <h4>{{student.sem}}</h4>
+    <h4>{{student?.div}}</h4>
+</div>
+rgb(36 41 46)
+<button (click)="btn(mybtn)" #mybtn>Submit</button> -->
+<input type="text" #inputtag (input)="addname(inputtag.value)">
+<pre>
+    <button (click)="copydata()">{{Copyed}}</button>
+    <code  [lineNumbers]="true" style="font-size: 17px;background-color: rgba(36, 41, 46, 1);" [languages]="['java']" [highlight]="codejava" > 
+    </code>
+    <code  [lineNumbers]="true" style="font-size: 17px;background-color: rgba(36, 41, 46, 1);" [languages]="['python']" [highlight]="codepython" > 
+    </code>
+</pre>
+<button (click) = "toggle()">Toggle</button>
+<h1 (click)="hellomycompo()">{{testvar}}</h1>

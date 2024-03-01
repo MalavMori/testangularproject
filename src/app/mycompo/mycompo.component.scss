@@ -1,0 +1,24 @@
+
+pre{
+    position: relative;
+    button{
+        position: absolute;
+        right: 10px;
+        top: 40px;
+        width: 80px;
+        height: 30px;
+        background-color: rgba($color: #fff, $alpha: 0.2);
+        border-radius: 5px;
+        border:none;
+        color: #fff;
+        font-size: 13px;
+        cursor: pointer;
+        transition: 0.2s;
+    }
+    button:hover{
+        background-color: rgba($color: #fff, $alpha: 0.4);
+    }
+    code{
+        border-radius: 10px;
+    }
+} 
